@@ -88,7 +88,7 @@ Avvio del CRS Manager da terminale
 
 La prima volta scarica i certificati, quando finisce dare CTSL+C e rilanciarlo
 
-### In caso di problemi
+## In caso di problemi
 
 Riavviare il demone PC/SC
 
