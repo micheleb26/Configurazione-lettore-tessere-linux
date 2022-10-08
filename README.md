@@ -147,3 +147,18 @@ In caso non funziona ancora provare ad installare le seguenti librerie:
 `sudo apt install libnss3-tools`
 
 `sudo apt install zlib1g-dev`
+
+# Per cultura
+
+Nella tabella di seguito riporto le descrizioni dei pachetti nominati in questa guida, che siano necessari per il corretto funzionamento del lettore di tessere o meno.
+
+| Pacchetto     | Descrizione                              |
+|---------------|------------------------------------------|
+| libccid       | Driver PC/SC per smartcard reader USB    |
+| pcscd         | Middleware per accedere alle smartcard   |
+| opensc        | Smartcard utilities compatibili PKCS#15  |
+| pcsc-tool     | Strumenti da utilizzare con le smartcard |
+| opensc-pkcs11 | Smartcard utilities compatibili PKCS#15  |
+| libacsccid1   | Driver PC/SC per smartcard reader USB    |
+| libpcsclite1  | Middleware                               |
+| libnss3-tools | Network security service tools           |
