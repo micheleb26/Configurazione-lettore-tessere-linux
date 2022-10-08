@@ -6,6 +6,7 @@
 3. [Configurazione di firefox](./configurazione_firefox.md)
 4. [Configurazione del CRS Manager](./configurazione_crsmanager.md)
 5. [Per cultura](#cultura)
+6. [Riferimenti](#riferimenti)
 
 ### Descrizione
 
@@ -124,7 +125,7 @@ Adesso opzionalmente si può procedere con la configurazione del [CRS Manager](.
 
 O con la [configurazione di firefox](./configurazione_firefox.md).
 
-Questo dovrebbe bastare.
+**Questo dovrebbe bastare**.
 
 ## In caso di problemi<a id="problemi"></a>
 
@@ -182,3 +183,8 @@ Nella tabella di seguito riporto (in forma non completa) le descrizioni dei pach
 | libacsccid1   | Driver PC/SC per smartcard reader USB    |
 | libpcsclite1  | Middleware                               |
 | libnss3-tools | Network security service tools           |
+
+### Riferimenti<a id="riferimenti"></a>
+- [Carta azionale dei servizi e firma digitale](https://wiki.golem.linux.it/Carta_Nazionale_dei_Servizi_e_Firma_Digitale#Firma_digitale_FD)
+- [Elenco driver cittadini modalità accesso](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso)
+- [Software per TS-CNS](https://www.ariaspa.it/wps/portal/Aria/Home/DettaglioRedazionale/cosa--facciamo/innovazione-digitale/certificazione-digitale/software-cns)
