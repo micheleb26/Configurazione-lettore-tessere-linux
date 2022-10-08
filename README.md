@@ -5,7 +5,7 @@
 2. [In caso di problemi](#problemi)
 3. [Configurazione di firefox](./configurazione_firefox.md)
 4. [Configurazione del CRS Manager](./configurazione_crsmanager.md)
-5. [Per cultura](#installazione)
+5. [Per cultura](#cultura)
 
 ### Descrizione
 
