@@ -1,10 +1,15 @@
 # Configurare il lettore tessere in Linux
 
+## Indice
+1. [Installazione dei driver e degli strumenti](#installazione)
+2. [Configurazione di firefox](./configurazione_firefox.md)
+3. [Configurazione del CRS Manager](./configurazione_crsmanager.md)
+
 ### Descrizione
 
 > _Configurazione provata su Linux Mint 21 LTS "Vanessa"_
 
-## Comandi
+## Installazione<a id="installazione"></a>
 
 Collegare il lettore e inserire la tessera sanitaria:
 
