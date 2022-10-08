@@ -94,7 +94,7 @@ Riavviare il demone PC/SC
 
 `sudo systemctl restart pcscd`
 
-provare ad installare le seguenti librerie una alla volta finché va:
+Se il problema non è risolto, provare ad installare le seguenti librerie una alla volta finché va:
 
 Scaricare dal sito [sanita.finanze.it](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso) il pacchetto in base al proprio sistema operativo ed installarlo tramite il comando
 
