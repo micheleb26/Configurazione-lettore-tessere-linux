@@ -188,3 +188,6 @@ Nella tabella di seguito riporto (in forma non completa) le descrizioni dei pach
 - [Carta azionale dei servizi e firma digitale](https://wiki.golem.linux.it/Carta_Nazionale_dei_Servizi_e_Firma_Digitale#Firma_digitale_FD)
 - [Elenco driver cittadini modalità accesso](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso)
 - [Software per TS-CNS](https://www.ariaspa.it/wps/portal/Aria/Home/DettaglioRedazionale/cosa--facciamo/innovazione-digitale/certificazione-digitale/software-cns)
+- [Istruzioni per configurare i Driver delle TS-CNS
+per sistemi operativi Linux](https://www.ariaspa.it/wps/wcm/connect/d44b3b70-1333-43d1-9af3-b6941f28be79/Istruzioni+per+configurare+i+Driver+delle+carte+su+Firefox+e+su+CRS+per+sistemi+operativi+Linux_v4.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-d44b3b70-1333-43d1-9af3-b6941f28be79-nCAjxHP)
+- [Manuale di installazione e configurazione software CRS per Linux a 64bit](https://www.lispa.it/wps/wcm/connect/83e872ef-a750-47c1-b0c5-a608029bc8a2/Manuale+per+l%27installazione+e+la+configurazione+del+Software+CRS+per+Linux+64bit+v2.0.pdf?MOD=AJPERES&CONVERT_TO=URL&CACHEID=83e872ef-a750-47c1-b0c5-a608029bc8a2)
