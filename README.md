@@ -2,8 +2,9 @@
 
 ## Indice
 1. [Installazione dei driver e degli strumenti](#installazione)
-2. [Configurazione di firefox](./configurazione_firefox.md)
-3. [Configurazione del CRS Manager](./configurazione_crsmanager.md)
+2. [In caso di problemi](#problemi)
+3. [Configurazione di firefox](./configurazione_firefox.md)
+4. [Configurazione del CRS Manager](./configurazione_crsmanager.md)
 
 ### Descrizione
 
@@ -86,9 +87,15 @@ Avvio del CRS Manager da terminale
 
 `crsLinux.sh`
 
-La prima volta scarica i certificati, quando finisce dare CTSL+C e rilanciarlo
+La prima volta scarica i certificati, quando finisce dare CTSL+C e rilanciarlo.
 
-## In caso di problemi
+Adesso opzionalmente si può procedere con la configurazione del [CRS Manager](./configurazione_crsmanager.md)
+
+O con la [configurazione di firefox](./configurazione_firefox.md).
+
+Questo dovrebbe bastare.
+
+## In caso di problemi<a id="problemi"></a>
 
 Riavviare il demone PC/SC
 
