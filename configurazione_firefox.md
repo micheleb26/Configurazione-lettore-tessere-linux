@@ -34,6 +34,14 @@ Selezionare la voce _NSS Internal PKCS # 11Module_ e cliccare sul mottone _Caric
 Indicare un nome significativo a scelta
 Indicare il percorso della libreria del lettore, nel mio caso `/usr/lib/x86_84-linux-gnu/opensc-pkcs11.so` e dare _OK_
 
+---
+
+**NOTE**
+
+In caso di problemi e si è installato il pacchetto scaricato dal sito [sanita.finanze.it](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso) provare ad inserire il percorso: `/usr/lib/bit4id/libbit4opki.so`
+
+---
+
 ### Passo 5
 
 Eseguire il login inserendo in PIN della tessera sanitaria
