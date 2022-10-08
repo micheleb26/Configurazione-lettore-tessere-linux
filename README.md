@@ -134,7 +134,24 @@ Riavviare il demone PC/SC
 
 Se il problema non è risolto, provare ad installare le seguenti librerie una alla volta finché va:
 
-Scaricare dal sito [sanita.finanze.it](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso) il pacchetto in base al proprio sistema operativo ed installarlo tramite il comando
+Scaricare dal sito [sanita.finanze.it](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso) il pacchetto in base al proprio sistema operativo
+
+**Oppure:**
+> `wget -c https://swdownload1.agenziaentrate.gov.it/pub/sanita/libbit4xpki-idemia-amd64.1.4.10-622.de`
+> 
+> _Modificare il comando wget in base alle esigenze._
+> 
+> `echo '9d622a0f1fc4499f4795eb86cc7a21e29902ada62c5c822049bab4939eed06d7  libbit4xpki-idemia-amd64.1.4.10-622.deb' > libbit4xpki-idemia-amd64.1.4.10-622.deb.sha256`
+> 
+> `sha256sum -c libbit4xpki-idemia-amd64.1.4.10-622.deb.sha256`
+> 
+> L'output deve essere:
+> 
+> `libbit4xpki-idemia-amd64.1.4.10-622.deb: OK`
+> 
+> o riscaricare il pacchetto.
+
+ed installarlo tramite il comando
 
 `sudo dpkg -i libbit4xpki-idemia-amd64.1.4.10-622.deb`
 
