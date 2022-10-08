@@ -71,7 +71,35 @@ Scaricare il programma di gestione delle firme _CRSManager_ dal sito di [ARIA](h
 
 Oppure usare il comando wget (In caso installarlo: `sudo apt install -y wget`)
 
-`wget -c -q -O CRSManager.run https://www.ariaspa.it/wps/wcm/connect/7e4b38f4-bbf0-456a-8fb5-8dde442604e2/CRSManager.run?MOD=AJPERES&CACHEID=ROOTWORKSPACE-7e4b38f4-bbf0-456a-8fb5-8dde442604e2-obVps5-`
+1. `wget -c -q -O CRSManager.run https://www.ariaspa.it/wps/wcm/connect/7e4b38f4-bbf0-456a-8fb5-8dde442604e2/CRSManager.run?MOD=AJPERES&CACHEID=ROOTWORKSPACE-7e4b38f4-bbf0-456a-8fb5-8dde442604e2-obVps5-`
+
+2. `wget -qc -O CRSManager.run.sha256 https://raw.githubusercontent.com/micheleb26/Configurazione-lettore-tessere-linux/main/programs/CRSManager.run.sha256`
+
+3. `sha256sum -c CRSManager.run.sha256`
+
+L'output deve essere 
+
+```
+CRSManager.run: OK
+```
+
+Se risulta qualcosa di diverso occorre rieseguire il comando _wget_ del punto 1.
+
+**Alternativamente si può scaricare il programma da questo repository:**
+
+1. `wget -qc -O CRSManager.run https://github.com/micheleb26/Configurazione-lettore-tessere-linux/blob/main/programs/CRSManager.run?raw=true`
+
+2. `wget -qc -O CRSManager.run.sha256 https://raw.githubusercontent.com/micheleb26/Configurazione-lettore-tessere-linux/main/programs/CRSManager.run.sha256`
+
+3. `sha256sum -c CRSManager.run.sha256`
+
+L'output deve essere 
+
+```
+CRSManager.run: OK
+```
+
+Se risulta qualcosa di diverso occorre rieseguire il comando _wget_ del punto 1.
 
 Il file è sui 4.4MB (4,579,454 byte) in caso sia stato scaricato parzialmente rilanciare il comando wget.
 
