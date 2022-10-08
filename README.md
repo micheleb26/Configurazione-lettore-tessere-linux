@@ -11,7 +11,7 @@
 
 > _Configurazione provata su Linux Mint 21 LTS "Vanessa" utilizzando un lettore di tessere [bit4id minilector EVO](https://www.amazon.it/gp/product/B0081SW1GE/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)._
 > 
-> _Lettori diversi potrebbero aver bisogno di configurazioni e/o librerie di sistema diverse da quelle descritte in questo articolo._
+> _Lettori di schede diversi da quello riportato, potrebbero aver bisogno di configurazioni e/o librerie di sistema diverse da quelle descritte in questo articolo._
 
 ## Installazione<a id="installazione"></a>
 
