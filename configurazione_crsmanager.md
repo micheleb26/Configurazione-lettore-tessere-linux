@@ -25,3 +25,14 @@ Si può cliccare anche sull'icona e sceglierne una a piacere, io ho scelto quell
 <img title="a title" alt="Creazione lanciatore" src="/img/configurazione_crsmanager_03.png">
 
 Selezionare _Crea_ e apparirà l'icona del CRS Manager sul desktop.
+
+## In caso di problemi con le librerie
+
+In caso in cui la libreria di default non veda il lettore di schede si può configurare il CRS Manager in modo che ne utilizzi un'altra.
+Andare quindi in Modifica
+
+<img title="a title" alt="Creazione lanciatore" src="/img/configurazione_crsmanager_05.png">
+
+Indicare una libreria diversa al CRS Manager.
+
+<img title="a title" alt="Creazione lanciatore" src="/img/configurazione_crsmanager_04.png">
