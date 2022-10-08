@@ -5,6 +5,7 @@
 2. [In caso di problemi](#problemi)
 3. [Configurazione di firefox](./configurazione_firefox.md)
 4. [Configurazione del CRS Manager](./configurazione_crsmanager.md)
+5. [Per cultura](#installazione)
 
 ### Descrizione
 
@@ -148,7 +149,7 @@ In caso non funziona ancora provare ad installare le seguenti librerie:
 
 `sudo apt install zlib1g-dev`
 
-# Per cultura
+# Per cultura<a id="cultura"></a>
 
 Nella tabella di seguito riporto le descrizioni dei pachetti nominati in questa guida, che siano necessari per il corretto funzionamento del lettore di tessere o meno.
 
