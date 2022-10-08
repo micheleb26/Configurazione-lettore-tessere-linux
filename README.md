@@ -81,6 +81,27 @@ Avvio del CRS Manager da terminale
 
 La prima volta scarica i certificati, quando finisce dare CTSL+C e rilanciarlo
 
+### In caso di problemi
+
+Riavviare il demone PC/SC
+
 `sudo systemctl restart pcscd`
 
-`pcsc_scan # test funzionamento lettore`
+provare ad installare le seguenti librerie una alla volta finché va:
+
+Scaricare dal sito [sanita.finanze.it](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso) il pacchetto in base al proprio sistema operativo ed installarlo tramite il comando
+
+`sudo dpkg -i libbit4xpki-idemia-amd64.1.4.10-622.deb`
+
+Questo pacchetto installa le librerire in /usr/lib/bit4id/ configurare il CRSManager in modo che punti alla libreria `/usr/lib/bit4id/libbit4opki.so`
+Lo stesso vale se si vuole configurare Firefox.
+
+In caso non funziona ancora provare ad installare le seguenti librerie:
+
+`sudo apt install -y opensc-pkcs11`
+
+`sudo apt install libpcsclite1`
+
+`sudo apt install libnss3-tools`
+
+`sudo apt install zlib1g-dev`
