@@ -65,7 +65,9 @@ Scaricare il programma di gestione delle firme _CRSManager_ dal sito di [ARIA](h
 
 Oppure usare il comando wget (In caso installarlo: `sudo apt install -y wget`)
 
-`wget -q -O CRSManager.run https://www.ariaspa.it/wps/wcm/connect/7e4b38f4-bbf0-456a-8fb5-8dde442604e2/CRSManager.run?MOD=AJPERES&CACHEID=ROOTWORKSPACE-7e4b38f4-bbf0-456a-8fb5-8dde442604e2-obVps5-`
+`wget -c -q -O CRSManager.run https://www.ariaspa.it/wps/wcm/connect/7e4b38f4-bbf0-456a-8fb5-8dde442604e2/CRSManager.run?MOD=AJPERES&CACHEID=ROOTWORKSPACE-7e4b38f4-bbf0-456a-8fb5-8dde442604e2-obVps5-`
+
+Il file è sui 4.4MB (4,579,454 byte) in caso sia stato scaricato parzialmente rilanciare il comando wget.
 
 Dare i permessi di esecuzione al file scaricato
 
