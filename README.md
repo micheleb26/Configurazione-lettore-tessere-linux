@@ -61,7 +61,7 @@ Possibly identified card (using /usr/share/pcsc/smartcard_list.txt):
 	Tessera Sanitaria - Carta Regionale dei Servizi
 ```
 
-Scaricare il programma di gestione delle firme _CRSManager_ dal sito di [ARIA](https://www.ariaspa.it/wps/portal/Aria/Home/DettaglioRedazionale/cosa--facciamo/innovazione-digitale/certificazione-digitale/software-cns)
+Scaricare il programma di gestione delle firme _CRSManager_ dal sito di [ARIA](https://www.ariaspa.it/wps/portal/Aria/Home/DettaglioRedazionale/cosa--facciamo/innovazione-digitale/certificazione-digitale/software-cns){:target="_blank"}
 
 Oppure usare il comando wget (In caso installarlo: `sudo apt install -y wget`)
 
@@ -91,7 +91,7 @@ Riavviare il demone PC/SC
 
 provare ad installare le seguenti librerie una alla volta finché va:
 
-Scaricare dal sito [sanita.finanze.it](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso) il pacchetto in base al proprio sistema operativo ed installarlo tramite il comando
+Scaricare dal sito [sanita.finanze.it](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso){:target="_blank"} il pacchetto in base al proprio sistema operativo ed installarlo tramite il comando
 
 `sudo dpkg -i libbit4xpki-idemia-amd64.1.4.10-622.deb`
 
