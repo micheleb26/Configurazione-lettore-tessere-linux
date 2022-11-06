@@ -115,15 +115,21 @@ Il file è sui 4.4MB (4,579,454 byte) in caso sia stato scaricato parzialmente r
 
 Dare i permessi di esecuzione al file scaricato
 
-`chmod +x CRSManager.run`
+```bash
+chmod +x CRSManager.run
+```
 
 Eseguire l'installazione
 
-`sudo ./CRSManager.run`
+```bash
+sudo ./CRSManager.run
+```
 
 Avvio del CRS Manager da terminale
 
-`crsLinux.sh`
+```bash
+crsLinux.sh
+```
 
 La prima volta scarica i certificati, quando finisce dare CTSL+C e rilanciarlo.
 
@@ -137,7 +143,9 @@ O con la [configurazione di firefox](./configurazione_firefox.md).
 
 Riavviare il demone PC/SC
 
-`sudo systemctl restart pcscd`
+```bash
+sudo systemctl restart pcscd
+```
 
 Se il problema non è risolto, provare ad installare le seguenti librerie una alla volta finché va:
 
@@ -160,20 +168,30 @@ Scaricare dal sito [sanita.finanze.it](https://sistemats1.sanita.finanze.it/port
 
 ed installarlo tramite il comando
 
-`sudo dpkg -i libbit4xpki-idemia-amd64.1.4.10-622.deb`
+```bash
+sudo dpkg -i libbit4xpki-idemia-amd64.1.4.10-622.deb
+```
 
 Questo pacchetto installa le librerire in /usr/lib/bit4id/ configurare il CRSManager in modo che punti alla libreria `/usr/lib/bit4id/libbit4opki.so`
 Lo stesso vale se si vuole configurare Firefox.
 
 In caso non funziona ancora provare ad installare le seguenti librerie:
 
-`sudo apt install -y opensc-pkcs11`
+```bash
+sudo apt install -y opensc-pkcs11
+```
 
-`sudo apt install libpcsclite1`
+```bash
+sudo apt install libpcsclite1
+```
 
-`sudo apt install libnss3-tools`
+```bash
+sudo apt install libnss3-tools
+```
 
-`sudo apt install zlib1g-dev`
+```bash
+sudo apt install zlib1g-dev
+```
 
 # Per cultura<a id="cultura"></a>
 
