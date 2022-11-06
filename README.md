@@ -138,7 +138,7 @@ Se il problema non è risolto, provare ad installare le seguenti librerie una al
 Scaricare dal sito [sanita.finanze.it](https://sistemats1.sanita.finanze.it/portale/elenco-driver-cittadini-modalita-accesso) il pacchetto in base al proprio sistema operativo
 
 **Oppure:**
-> `wget -c https://swdownload1.agenziaentrate.gov.it/pub/sanita/libbit4xpki-idemia-amd64.1.4.10-622.de`
+> `wget -c https://swdownload1.agenziaentrate.gov.it/pub/sanita/libbit4xpki-idemia-amd64.1.4.10-622.deb`
 > 
 > _Modificare il comando wget in base alle esigenze._
 > 
