@@ -20,15 +20,21 @@ Collegare il lettore e inserire la tessera sanitaria:
 
 Aggiornare il sistema operativo
 
-`sudo apt update && sudo apt upgrade -y`
+```bash
+sudo apt update && sudo apt upgrade -y
+```
 
 Installare le librerie, gli strumenti e il middleware
 
-`sudo apt install -y libccid pcscd opensc libacsccid1 pcsc-tools`
+```bash
+sudo apt install -y libccid pcscd opensc libacsccid1 pcsc-tools
+```
 
 Verifica corretto funzionamento del lettore, a tessera inserita dare il comando da terminale
 
-`pcsc_scan`
+```bash
+pcsc_scan
+```
 
 L'output sarà qualcosa di simile, le descrizioni cambiano in base al lettore e alla tessera sanitaria
 
